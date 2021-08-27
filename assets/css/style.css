@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+    font-family: "Signaute";
+    src: url("../font/RetroSignature.woff");
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 20px;
+    color: #19304F;
+}
+p{
+    font-size: 16px;
+    color: #222222;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    margin: 55px;
+}
+#caixa-Space{
+    margin-left: 11px;
+    width: 500px;
+}
+#area-Titulo{
+    display: flex;
+}
+#area-Titulo img {
+    width: 150px;
+    border-radius: 100%;
+}
+#area-Titulo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 7px;
+}
+
+#area-Titulo p {
+    margin: 6px 11px;
+}
+#area-Perfil {
+    margin-top: 30px;
+}
+#area-Perfil p {
+    line-height: 18px;
+}
+.configuracao-Titulo{
+    margin-bottom: 10px;
+}
+.configuracao-Pg{
+    margin-bottom: 36px;
+}
+#area-Educacao li , #area-Projetos li {
+    margin: 5px 0 15px 30px;
+}
+.sem-Style {
+    list-style-type: none;
+}
+/*Área de contatos*/
+
+#area-Contatos{
+    background-color: #19304F;
+    color: #FFFFFF;
+    width: 350px;
+}
+#caixa-Contatos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+}
+
+#contatos, #area-Conhecimentos{
+    margin-left: 6vw;
+    margin-right: 20px;
+}
+
+#contatos h2 {
+    margin-bottom: 11px;
+    color: #FFFFFF;
+}
+
+#contatos p {
+    line-height: 15px;
+    color: white;
+    text-align: justify;
+    margin: 11px 0 11px 0;
+}
+
+#contatos img {
+    margin: 7px;
+}
+
+#area-Conhecimentos h2 {
+    color: white;
+    margin: 36px 0  11px 0;
+}
+
+#area-Conhecimentos ul{
+    list-style-type: none;
+}
+
+#area-Conhecimentos li {
+    margin-top: 9px;
+}
+
+#area-Conhecimentos li::after{
+    content: "";
+    width: 150px;
+    height: 3px;
+    display: block;
+    background-color: white;
+}
+/*Rodape*/
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(119, 119, 119);
+    padding: 20px;
+}
+footer h2 {
+    font-size: 30px;
+}
+footer img {
+    padding: 5px;
+    margin-right: 5px;
+}
+#projeto {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#assinatura {
+    font-family: "Signaute";
+    font-size: 4vw;
+    color: black;
+}
+#assinatura::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    margin: 10px auto;
+    background-color: white;
+}
