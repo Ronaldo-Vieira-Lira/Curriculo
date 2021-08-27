@@ -190,7 +190,7 @@ footer img {
         justify-content: center;
     }
     main {
-        margin: 10px;
+        margin: 30px;
     }
     #caixa-Contatos {
         margin: 40px;
@@ -201,6 +201,9 @@ footer img {
     }
 }
 @media(max-width: 375px) {
+    main {
+        margin: 20px;
+    }
     #area-Titulo h1 {
         font-size: 25px;
     }
