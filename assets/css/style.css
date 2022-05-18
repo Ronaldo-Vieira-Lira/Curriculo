@@ -133,7 +133,7 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(119, 119, 119);
+    background-color: rgb(139, 139, 139);
     padding: 20px;
     width: 100%;
 }
@@ -152,6 +152,7 @@ footer img {
 #assinatura {
     font-family: "Signaute";
     font-size: 3em;
+    font-weight: 300;
     color: black;
     margin: 10px;
 }
